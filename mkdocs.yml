@@ -1,0 +1,57 @@
+site_name: Ganymede 2 User Guide
+site_description: Documentation for the Ganymede 2 HPC Cluster at UT Dallas
+site_url: https://utdallas-hpc-g2-ug.readthedocs-hosted.com/
+
+docs_dir: docs
+
+plugins:
+  - search
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  palette:
+    primary: custom
+    accent: custom
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Account Request: getting-started/account-request.md
+    - Login: getting-started/login.md
+    - Storage & Data Transfer: getting-started/storage.md
+    - Scratch Space: getting-started/scratch-space.md
+    - Hardware Overview: getting-started/hardware.md
+  - Working on G2:
+    - Linux Commands: working-on-g2/linux-commands.md
+    - Module System: working-on-g2/modules.md
+    - Available Software: working-on-g2/software.md
+  - Running Programs:
+    - SLURM Job Scheduler: running-programs/slurm.md
+    - Monitoring Jobs and Cluster State: running-programs/advanced-slurm.md
+    - Common Scientific Programs: running-programs/common-programs.md
+    - Parallelism Models: running-programs/parallelism.md
+    - Launcher: running-programs/launcher.md
+  - Advanced:
+    - Containers: advanced/containers.md
+    - Python Optimization: advanced/python-optimization.md
+    - Miniconda: advanced/miniconda.md
+  - Support:
+    - Getting Help: support/getting-help.md
+    - FAQ: support/faq.md

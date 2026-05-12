@@ -7,6 +7,8 @@ Understanding where to store your data and how to move it efficiently is essenti
 - **IO2**: High-speed storage for programs and data in active use. Includes Home and Group directories.
 - **Scratch**: Very high-performance storage optimized for I/O-intensive batch jobs. Up to **10× faster** than IO2 for large I/O.
 
+![Storage tiers — IO2 (Home, Group) is persistent and backed up daily; Scratch is up to 10× faster for large I/O but is temporary and never backed up.](../images/storage-hierarchy.png)
+
 ## Storage Systems on G2
 
 ### Home Directory

@@ -27,6 +27,8 @@ Ganymede 2 is an HPC cluster consisting of **126 nodes** organized into **26 con
 
 All compute nodes are interconnected via **HDR100 InfiniBand** for fast MPI communication.
 
+![Ganymede 2 Cluster Diagram](images/Ganymede2.png)
+
 For full hardware specifications, see the [Hardware Overview](getting-started/hardware.md).
 
 ---

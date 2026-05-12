@@ -77,6 +77,8 @@ After successful login, you'll be on a login node. The prompt will look like:
 [netID@g2-l-01 ~]$
 ```
 
+![Screenshot of a terminal window showing the SSH login sequence — host key confirmation prompt, password prompt, and the G2 welcome banner followed by the login node prompt.](../images/screenshot-login-terminal.png)
+
 ## Open OnDemand (Web Interface)
 
 Access G2 through your web browser without needing SSH:
@@ -84,6 +86,8 @@ Access G2 through your web browser without needing SSH:
 1. Navigate to: [https://g2-ood.circ.utdallas.edu/](https://g2-ood.circ.utdallas.edu/)
 2. Log in with your UTD NetID and password
 3. You'll see the Open OnDemand dashboard
+
+![Screenshot of the Open OnDemand dashboard showing the top navigation bar with Files, Jobs, Clusters, and Interactive Apps menus.](../images/screenshot-ood-dashboard.png)
 
 ### Features Available
 

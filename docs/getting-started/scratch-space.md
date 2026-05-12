@@ -25,6 +25,8 @@ Running programs have much heavier I/O needs than file browsing or editing. When
 
 ## Scratch Workflow
 
+![Scratch data lifecycle — stage data in before the job, process on scratch during the job, copy important results to Home/Group after, then clean up scratch.](../images/scratch-data-lifecycle.png)
+
 For any job with significant I/O, follow this four-step pattern inside your batch script:
 
 ```

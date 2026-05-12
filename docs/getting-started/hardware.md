@@ -1,5 +1,7 @@
 # Hardware Overview
 
+![Ganymede 2 Cluster Diagram](../images/Ganymede2.png)
+
 ## Cluster Summary
 
 Ganymede 2 is organized into **26 condos** contributed by individual research groups, plus shared partitions accessible to all users.
@@ -79,6 +81,8 @@ G2 compute nodes have **2 sockets**, each populated with one AMD EPYC CPU. Each 
 GPU nodes add one or more NVIDIA GPUs. Each GPU has thousands of small CUDA cores and its own dedicated memory (VRAM), distinct from the node's main RAM.
 
 ## SLURM Partitions Summary
+
+![G2 cluster partitions — how the 126 nodes are divided across cpu-preempt, gpu-preempt, and individual condo partitions.](../images/slurm-partitions.png)
 
 G2 partitions map to condos and shared pools:
 

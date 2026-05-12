@@ -60,6 +60,8 @@ Your prompt changes to show the compute node name (e.g., `[netID@c-09-04 ~]$`). 
 
 ## G2 Partitions
 
+![G2 cluster partitions — how the 126 nodes are divided across cpu-preempt, gpu-preempt, and individual condo partitions.](../images/slurm-partitions.png)
+
 G2 nodes are organized into **partitions** (also called queues). Choose the partition that matches your job's resource needs.
 
 ### Shared Partitions (All Users)

@@ -11,6 +11,8 @@ G2 accounts are available to UT Dallas faculty, staff, and students engaged in r
 3. Click the link that most closely matches your request
 4. If unsure, email [circ-assist@utdallas.edu](mailto:circ-assist@utdallas.edu)
 
+![Screenshot of the G2 account request form at hpc.utdallas.edu/services showing the fields for PI name, NetID, department, and system selection.](../images/screenshot-account-request-form.png)
+
 ## What You Will Receive
 
 Once your account is approved, you will receive:

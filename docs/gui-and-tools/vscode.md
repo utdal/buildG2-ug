@@ -1,4 +1,4 @@
-# VSCode on Juno
+# VSCode on Ganymede2
 
 ## Overview
 
@@ -7,7 +7,7 @@ Visual Studio Code can run on Ganymede2 through **Open OnDemand**, which launche
 !!! warning "Use Open OnDemand, not Remote-SSH"
     The VSCode **Remote-SSH** extension connects to a **login node**, which is limited to ~8 GB of RAM and is not meant for running code or development tools. Indexing a project, opening large files, or running extensions there can crash your session and degrade the login node for everyone. Always use the Open OnDemand method below.
 
-## Why VSCode on Juno?
+## Why VSCode on Ganymede2?
 
 - Full IDE experience (syntax highlighting, IntelliSense, search) on the cluster
 - Integrated terminal for loading modules and submitting jobs

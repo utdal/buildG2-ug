@@ -49,10 +49,10 @@ nav:
     - Common Scientific Programs: running-programs/common-programs.md
     - Parallelism Models: running-programs/parallelism.md
     - Launcher: running-programs/launcher.md
-   - GUI & Tools:
+  - GUI & Tools:
     - GUI Programs: gui-and-tools/gui-programs.md
     - JupyterLab: gui-and-tools/jupyter.md
-    - VSCode: gui-and-tools/vscode.md 
+    - VSCode: gui-and-tools/vscode.md
   - Advanced:
     - Containers: advanced/containers.md
     - Python Optimization: advanced/python-optimization.md

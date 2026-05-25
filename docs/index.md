@@ -2,11 +2,11 @@
 
 ## Introduction
 
-Welcome to Ganymede 2 (G2), a High Performance Computing (HPC) cluster at UT Dallas. This guide provides essential information for new and existing users to get started and make the most of the system.
+Welcome to Ganymede 2 (G2), a condo based High Performance Computing (HPC) cluster at UT Dallas. This guide provides essential information for new and existing users to get started and make the most of the system.
 
 ## What is Ganymede 2?
 
-Ganymede 2 is an HPC cluster consisting of **126 nodes** organized into **26 condos**, owned and operated by individual research groups. In total it provides roughly **8,000 cores**, **116 GPUs**, and **58 TB of RAM**, interconnected via **HDR100 InfiniBand** for fast MPI communication.
+Ganymede 2 is an HPC cluster build on the condo model consisting of **126 nodes** organized into **26 condos**, owned and operated by individual research groups. In total it provides roughly **8,000 cores**, **116 GPUs**, and **58 TB of RAM**, interconnected via **HDR100 InfiniBand** for fast MPI communication.
 
 Users access shared nodes through the `cpu-preempt` and `gpu-preempt` partitions, in addition to any condo they belong to.
 
